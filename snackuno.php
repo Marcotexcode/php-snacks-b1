@@ -11,9 +11,7 @@
             'punti' => '30',
         ]
 
-        ];
-
-
+    ];
 
 ?>
 
@@ -27,7 +25,16 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+    <p>
+        
+        <?php echo $partite[0]['squadra'];?> -  
+        <?php echo $partite[1]['squadra'];?> |
+        <?php echo $partite[0]['punti'];?> -
+        <?php echo $partite[1]['punti'];?>   
+
+    </p>
+
 </body>
 </html>
 
